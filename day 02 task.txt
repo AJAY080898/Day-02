@@ -1,0 +1,30 @@
+1.write a blog on the difference between document objects and window objects?
+
+    >[Scope and Responsibilities]:
+                       
+                       The document object represents the content of the HTML document loaded in the browser window and is responsible for DOM manipulation.
+                       The window object represents the browser window itself and manages browser-related functionalities and global JavaScript execution.
+
+    >[DOM Manipulation vs. Browser Interaction]:
+                    
+                       The document object provides methods and properties for accessing and modifying the structure and content of the HTML document, enabling DOM manipulation.
+                       The window object offers methods for interacting with the browser, such as displaying dialog boxes 
+                        (alert, confirm, prompt), managing browser history (history), and controlling the browser window (open, close, resizeTo).
+
+    >[Hierarchy and Relationship]:
+                       The document object is a property of the window object. It represents the DOM document 
+                       displayed in the browser window and is accessible via window.document or simply document.While the document object deals 
+                       with the content of the HTML document, the window object encapsulates the entire browser environment and serves as the 
+                       global context for JavaScript execution.
+
+    >[ Content vs. Browser Environment]:
+                       
+                       The document object focuses on managing the structure, content, and styling of HTML elements within 
+                       the document, facilitating dynamic updates and interactivity.the window object provides access to browser-specific functionalities, 
+                      such as controlling the browser window, handling events, managing timers, and interacting with the user via dialog boxes.
+
+    >[Global Scope and Variables:]
+
+                    All global variables, functions, and objects are properties of the window object. Variables declared in the global scope are accessible as properties of window.
+                    The document object does not directly hold global variables or functions but provides methods and properties for interacting with the DOM 
+                    document within the browser window.
